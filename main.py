@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 EXPECTED_EMPLOYEES = 1000  # Expected number of employees arriving in one hour
 PEAK_ARRIVAL_RATE = 1 / 2  # Higher arrival rate during peak times (employees per second)
 LOW_ARRIVAL_RATE = 1 / 20  # Lower arrival rate outside peak times (employees per second)
-SERVICE_RATE = 1 / 12       # Average service time (6 seconds per employee)
+SERVICE_RATE = 1 / 6      # Average service time (6 seconds per employee)
 SIMULATION_DURATION = 3600  # Simulate 1 hour (8:00 AM to 9:00 AM)
 
 # Data collection
